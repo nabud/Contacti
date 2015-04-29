@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/zeyad/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/home/zeyad/personal/contactsall/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-8633bf9622a161f8ab618500b13b995dc36a4714.jar" />
+    </item>
+    <item
+        jar="/home/zeyad/personal/contactsall/app/build/intermediates/exploded-aar/com.daimajia.easing/library/1.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e88a9ed27f98f8c0701d03d5553ce6111ca34a5b">
+        <dex dex="/home/zeyad/personal/contactsall/app/build/intermediates/pre-dexed/debug/classes-c94881bebd6553d5a10889e00b2158ee2fef15fe.jar" />
+    </item>
+    <item
+        jar="/home/zeyad/personal/contactsall/app/libs/android-vcard.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d8e5df37fb61b6818cbcad7105a5fbd9da53ac72">
+        <dex dex="/home/zeyad/personal/contactsall/app/build/intermediates/pre-dexed/debug/android-vcard-c240f54b9c74912f98648fb0a8617aff7dab2172.jar" />
+    </item>
+    <item
+        jar="/home/zeyad/personal/contactsall/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/home/zeyad/personal/contactsall/app/build/intermediates/pre-dexed/debug/classes-9196deee9dbdd95383e1442d3500fc777c64a055.jar" />
+    </item>
+    <item
+        jar="/home/zeyad/personal/contactsall/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/home/zeyad/personal/contactsall/app/build/intermediates/pre-dexed/debug/classes-f99cdc243edbdcd50ae5efc660d042368d3f2ca6.jar" />
+    </item>
+    <item
+        jar="/home/zeyad/personal/contactsall/app/build/intermediates/exploded-aar/contactsall/flat_UI/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d7ff6fbe311baa4689fd0be47650c034ca283226">
+        <dex dex="/home/zeyad/personal/contactsall/app/build/intermediates/pre-dexed/debug/classes-6867604fb206964c47d9f8df789622501ee67a83.jar" />
+    </item>
+    <item
+        jar="/home/zeyad/personal/contactsall/app/build/intermediates/exploded-aar/contactsall/view_animations/unspecified/libs/nineoldandroids-2.4.0-2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="/home/zeyad/personal/contactsall/app/build/intermediates/pre-dexed/debug/nineoldandroids-2.4.0-2-e571aac369970252cbde4f7f7f178c109204c7e7.jar" />
+    </item>
+    <item
+        jar="/home/zeyad/personal/contactsall/app/libs/listviewanimations_lib-core-slh_3.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a4fe703aabd23e8c287c90396514418119109dd1">
+        <dex dex="/home/zeyad/personal/contactsall/app/build/intermediates/pre-dexed/debug/listviewanimations_lib-core-slh_3.1.0-ae20dc4c6950bbc96f035a68ac12c99334835418.jar" />
+    </item>
+    <item
+        jar="/home/zeyad/personal/contactsall/app/libs/listviewanimations_lib-core_3.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f3f9629b068554d8513a2aaf34418171bf430851">
+        <dex dex="/home/zeyad/personal/contactsall/app/build/intermediates/pre-dexed/debug/listviewanimations_lib-core_3.1.0-8d0ce13cca397dfe7749e74254f93857bd116335.jar" />
+    </item>
+    <item
+        jar="/home/zeyad/personal/contactsall/app/build/intermediates/exploded-aar/com.getbase/floatingactionbutton/1.9.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f2b8a750df2a5d485d0c40b379b44371c5e6d98d">
+        <dex dex="/home/zeyad/personal/contactsall/app/build/intermediates/pre-dexed/debug/classes-4d0ce163a14058abfedfff37b58e858c2bdd37ab.jar" />
+    </item>
+    <item
+        jar="/home/zeyad/personal/contactsall/app/libs/listviewanimations_lib-manipulation_3.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="63737e512fcd9e0ebe9bcd0bb375c2dded74116f">
+        <dex dex="/home/zeyad/personal/contactsall/app/build/intermediates/pre-dexed/debug/listviewanimations_lib-manipulation_3.1.0-af4ca7d4ff8b315a38272a19638c665c726d83b6.jar" />
+    </item>
+    <item
+        jar="/home/zeyad/personal/contactsall/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/home/zeyad/personal/contactsall/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-de13553cc0226f9f339bc2841ca1e6c88be86256.jar" />
+    </item>
+    <item
+        jar="/home/zeyad/personal/contactsall/app/build/intermediates/exploded-aar/contactsall/view_animations/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="20314ab00666c4d3dae70d4e1672536b6fe3ba0d">
+        <dex dex="/home/zeyad/personal/contactsall/app/build/intermediates/pre-dexed/debug/classes-66c0d6c43877d2cb3bcb0a757783f547a3c5cff5.jar" />
+    </item>
+
+</items>

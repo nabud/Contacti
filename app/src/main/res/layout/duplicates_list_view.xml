@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00000000">
+
+        <ExpandableListView
+            android:id="@+id/duplicates_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:groupIndicator="@null"
+            android:background="#00000000"/>
+
+        <com.cengalabs.flatui.views.FlatButton
+            android:id="@+id/merge_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="#00000000"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/merge_all" />
+    </LinearLayout>
+</RelativeLayout>

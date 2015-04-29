@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/manage_duplicates_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <com.cengalabs.flatui.views.FlatButton
+            android:id="@+id/duplicates_by_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:text="@string/duplicates_by_name"/>
+
+        <com.cengalabs.flatui.views.FlatButton
+            android:id="@+id/duplicates_by_phoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:text="@string/duplicates_by_phoneNumber"/>
+
+        <com.cengalabs.flatui.views.FlatButton
+            android:id="@+id/duplicates_by_emailaddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/duplicates_by_emailaddress"/>
+
+    </LinearLayout>
+
+    <include layout="@layout/duplicates_list_view"
+        android:id="@+id/duplicates_list_view_layout"
+        android:visibility="gone" />
+
+</LinearLayout>

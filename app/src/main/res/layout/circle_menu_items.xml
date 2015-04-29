@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:circle="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <app.contacts.com.contacts.common.circular_menu.CircleImageView
+        android:id="@+id/call_image"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/call" />
+
+    <app.contacts.com.contacts.common.circular_menu.CircleImageView
+        android:id="@+id/text_image"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/text" />
+
+    <app.contacts.com.contacts.common.circular_menu.CircleImageView
+        android:id="@+id/details_image"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/details" />
+
+    <app.contacts.com.contacts.common.circular_menu.CircleImageView
+        android:id="@+id/block_image"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/block" />
+
+    <app.contacts.com.contacts.common.circular_menu.CircleImageView
+        android:id="@+id/share_contact_image"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/share" />
+
+    <app.contacts.com.contacts.common.circular_menu.CircleImageView
+        android:id="@+id/delete_image"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/delete" />
+
+</merge>

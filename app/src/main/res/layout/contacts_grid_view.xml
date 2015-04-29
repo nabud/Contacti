@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/sorting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/sort_by"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/sort_by" />
+
+        <Spinner
+            android:id="@+id/order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/order" />
+
+        <ImageView
+            android:id="@+id/sort"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/warning" />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gridView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sorting"
+        android:numColumns="3" >
+
+    </GridView>
+
+    <com.cengalabs.flatui.views.FlatTextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+
+</RelativeLayout>

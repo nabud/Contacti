@@ -1,0 +1,4 @@
+include ':app', ':flat_UI', ':view_animations'
+
+project(':flat_UI').projectDir = new File('dependencies/flat_UI')
+project(':view_animations').projectDir = new File('dependencies/view_animations')

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_floating_material_dark" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"
+            android:background="#00000000">
+
+            <ImageView
+                android:id="@+id/picture"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#00000000"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="bottom">
+
+                <com.cengalabs.flatui.views.FlatTextView
+                    android:id="@+id/full_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Test test"
+                    android:textSize="@dimen/text_title"
+                    android:background="#00000000"/>
+
+                <com.cengalabs.flatui.views.FlatTextView
+                    android:id="@+id/last_contacted"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="2015/12/12"
+                    android:textSize="@dimen/text_normal"
+                    android:background="#00000000"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right">
+
+                <ImageView
+                    android:id="@+id/edit"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="#00000000"
+                    android:src="@drawable/edit" />
+
+                <ImageView
+                    android:id="@+id/delete"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="#00000000"
+                    android:src="@drawable/delete" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:background="#00000000">
+
+            <ImageView
+                android:id="@+id/call"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="#00000000"
+                android:visibility="gone"
+                android:src="@drawable/call" />
+
+            <ImageView
+                android:id="@+id/text"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="#00000000"
+                android:visibility="gone"
+                android:src="@drawable/text" />
+
+            <ImageView
+                android:id="@+id/email"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="#00000000"
+                android:visibility="gone"
+                android:src="@drawable/email" />
+
+            <ImageView
+                android:id="@+id/skype"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="#00000000"
+                android:visibility="gone"
+                android:src="@drawable/skype" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/email_address_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#00000000">
+
+            <com.cengalabs.flatui.views.FlatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:text="@string/email_address" />
+
+            <com.cengalabs.flatui.views.FlatTextView
+                android:id="@+id/email_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/phone_Number_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#00000000"
+            android:layout_marginTop="15dp" >
+
+            <com.cengalabs.flatui.views.FlatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:text="@string/phone_numbers" />
+
+            <com.cengalabs.flatui.views.FlatTextView
+                android:id="@+id/phone_Number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:src="@drawable/close"/>
+
+    </LinearLayout>
+</RelativeLayout>

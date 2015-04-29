@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/contact_image"
+        android:layout_gravity="center"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:src="@drawable/default_contact" />
+
+    <com.cengalabs.flatui.views.FlatTextView
+        android:id="@+id/contact_name"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_below="@id/contact_image"
+        android:layout_height="50dp"
+        android:maxLines="2"
+        android:textSize="@dimen/text_normal" />
+
+</RelativeLayout>
